@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">FORMULIR PERMOHONAN KARTU TANDA PENDUDUK (KTP) WARGA NEGARA INDONESIA</h2>
+    <form>
+    <table border="2" align="center" width="90%">
+        <tr>
+            <td align="left">
+                <h4>Perhatian:</h4>
+                <ol>
+                    <li>Harap diisi dengan huruf cetak dan menggunakan tinta hitam</li>
+                    <li>Untuk kolom pilihan, harap memberi tanda silang(x) pada kotak pilihan</li>
+                    <li>Setelah formulir ini diisi dan ditangani, harap diserahkan kembali ke kantor Desa/Kelurahan</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="0">
+
+        <tr>
+            <td><label for="PEMERINTAH PROVINSI"><b>PEMERINTAH PROVINSI</b></label></td>
+            <td>:</td>
+            <td><input type="text" id="provinsi" name="provinsi" size="158px"></td>
+        </tr>
+
+        <tr>
+            <td><label for="PEMERINTAH KABUPATEN/KOTA"><b>PEMERINTAH KABUPANTEN/KOTA</b></label></td>
+            <td>:</td>
+            <td><input type="text" id="kota" name="kota" size="158px"></td>
+        </tr>
+
+        <tr>
+            <td><label for="KECAMATAN"><b>KECAMATAN</b></label></td>
+            <td>:</td>
+            <td><input type="text" id="kecamatan" name="kecamatan" size="158px"></td>
+        </tr>
+
+        <tr>
+            <td><label for="KELURAHAN/DESA"><b>KELURAHAN/DESA</b></label></td>
+            <td>:</td>
+            <td><input type="text" id="kelurahan" name="kelurahan" size="158px"></td>
+        </tr>
+
+    </table>
+
+    <br>
+    <label for="Permohonan KTP"> <u><b><i>PERMOHONAN KTP</i></b></u> </label>
+    <input type="radio" id="A. Baru" name="permohonan" value="A. Baru">
+    <label for="A. Baru">A. Baru</label>
+    <input type="radio" id="B. Perpanjangan" name="permohonan" value="B. Perpanjangan">
+    <label for="B. Perpanjangan">B. Perpanjangan</label>
+    <input type="radio" id="C. Penggantian" name="permohonan" value="C. Penggantian">
+    <label for="C. Penggantian">C. Penggantian</label>
+    <br>
+    <br>
+    
+    <table border="2" style="border:1px;">
+        
+        <tr>
+            <td><label for="Nama Lengkap">Nama Lengkap</label></td>
+            <td><input type="text" id="namalengkap" name="namalengkap" size="185px"></td>
+        </tr>
+
+        <tr>
+            <td><label for="No KK">Nomor KK</label></td>
+            <td><input type="text" id="nomorkk" name="nomorkk" size="185px"></td>
+        </tr>
+
+        <tr>
+            <td><label for="NIK">NIK</label></td>
+            <td><input type="text" id="nik" name="nik" size="185px"></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><label for="Alamat">Alamat</label></td>
+            <td><textarea name="alamat" id="alamat" rows="1" cols="168"></textarea></td>
+        </tr>
+
+    </table>
+<br>
+<div align="center">
+    <table border="0">
+        <tr>
+        <td><label for="RW">RW</label></td>
+        <td><input type="number" name="rw" id="rw"></td>
+        
+
+        <td><label for="RT">RT</label></td>
+        <td><input type="number" name="rt" id="rt"></td>
+        
+
+        <td><label for="Kode Pos">Kode Pos</label></td>
+        <td><input type="text" name="kodepos" id="kodepos"></td>
+        </tr>
+    </table>
+</div>
+<br>
+
+<table border="2" style="color: black;">
+    <tr>
+        <td style="text-align: center; width: 150px;;"><label for="Pas Photo">Pas Photo</label></td>
+        <td style="text-align: center; width: 150px;">Cap Jempol</td>
+        <td style="text-align: center; width: 450px;" >Specimen Tanda Tangan</td>
+    </tr>
+
+    <tr>
+        <td style="text-align: center;">
+            <img src="images/pasphoto.JPG" alt="Pas Photo" width="100">
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
